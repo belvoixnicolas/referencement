@@ -1,3 +1,5 @@
+@import 'reset.css';
+
 a, li, p, h1, h2, i, figcaption, span  {
   font-family: 'trebuchet MS', 'Roboto', sans-serif;
 }
@@ -15,7 +17,7 @@ header h1 {
   font-size: 3.15789474rem;
 }
 
-header p, section h2 {
+header h2, section h3 {
   font-size: 1.89473684rem;
 }
 
@@ -60,11 +62,11 @@ main {
   margin: auto;
 }
 
-main h2 {
+main h3 {
   margin: 30px 0px;
 }
 
-h2 i {
+h3 i {
   margin-right: 15px;
 }
 
@@ -190,7 +192,7 @@ footer a {
   nav a {
     display: block;
     border-top: 1px solid #ffffff	;
-    border-bottom: : 1px solid #ffffff	;
+    border-bottom: 1px solid #ffffff	;
     border-left: none;
     border-right: none;
   }
